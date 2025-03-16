@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Web Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Welcome Page -->
+    <div id="welcome">
+        <h1> <i> Welcome to my restaurant </i> </h1>
+    </div>
+
+    <!-- Main Content (Hidden Initially) -->
+    <div id="main-content" class="hidden">
+        
+        <!-- Header -->
+        <header>
+            <h1> RESTAURANT </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Menu Section -->
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+            </ul>
+        </section>
+
+        <!-- Image Slider -->
+        <section class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/image1.jpg" alt="Slide 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/image2.jpg" alt="Slide 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/image3.jpg" alt="Slide 3">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+
+        <!-- Text Animations -->
+        <section class="text-animations">
+            <h2 class="fade-in">Fade In Text</h2>
+            <h2 class="bounce">Bouncing Text</h2>
+            <h2 class="typing">Typing Animation</h2>
+        </section>
+
+        <!-- Glowing Text -->
+        <section class="glowing-text">
+            <h2 class="glow">Glowing Effect Text</h2>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 My Website. All Rights Reserved.</p>
+        </footer>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
